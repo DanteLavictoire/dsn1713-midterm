@@ -43,15 +43,25 @@ li{
   list-style: none
 }
 
+figure img{
+  border-radius: 50%;
+}
+
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px;
 }
 
 #cta .d-flex {
   height: 400px;
+}
+
+.btn-lg{
+  background-color: var(--primary-color);
+  color: var(--light);
 }
 
 section:not(#hero):not(#cta){
